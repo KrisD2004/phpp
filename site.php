@@ -37,6 +37,10 @@
     echo $Food . "<br>";
    }
 
+   $Shoes = ["Joedam", "Mecian", "jkeia"];
+   foreach($Shoes as $Shoes){
+    echo $Shoes. "<br>";
+   }
   ?>
 </body>
 </html>
