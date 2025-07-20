@@ -7,6 +7,6 @@ class CalculatorTest extends TestCase {
     public function testAdd() {
         $calc = new Calculator();
         $result = $calc->add(2, 3);
-        $this->assertEquals(5, $result); // ✅ Should pass
+        $this->assertEquals(5, $result); // this Should pass
     }
 }
